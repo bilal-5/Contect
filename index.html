@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contect page</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="left-side">
+                <div class="address details">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div class="topic">Address</div>   
+                    <div class="text-one">khayaban Nishat, Nishat Comercial,</div>            
+                    <div class="text-two">Lane7, Plot 8C, DHA Karachi</div>
+                </div>
+                <div class="phone details">
+                    <i class="fa-solid fa-phone"></i>
+                    <div class="topic">Phone</div>   
+                    <div class="text-one">+923008158900</div>            
+                    <div class="text-two">+923002335375</div>
+                </div>
+                <div class="email details">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div class="topic">Email</div>   
+                    <div class="text-one">muhammadbilalmaari@gmail.com</div>            
+                    <div class="text-two">bilalmaari123@gmail.com</div>
+                </div>
+            </div>
+
+            <div class="line"></div>
+
+            <div class="right-side">
+                <div class="heading">
+                    <h2>Send us a Massage</h2>
+                </div>
+                <div class="discription">
+                    If you have any work from me or any type of quriess related to my profession,<br>
+                    you can send me a massage from here.It's my pleasure to help you.                
+                </div>
+                <div class="form-01">
+                    <form action="https://api.web3forms.com/submit" method="POST" onsubmit="SendMail(); reset(); return false">
+                        <input type="hidden" name="access_key" value="fdf28b30-4721-4f32-9894-8053b71cd601">
+                        <input type="text" name="name" id="text" placeholder="Enter your name" required>
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                        <input type="text" id="phone" name="number" placeholder="Enter your contect number" required>
+                        <textarea name="massage" id="" cols="30" rows="6" placeholder="Enter your massage" required></textarea>
+                        <button type="submit">Send Now</button>
+                    </form> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
